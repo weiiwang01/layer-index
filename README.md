@@ -106,7 +106,7 @@ List of Base Layers
 | nagios | [Repo](https://git.launchpad.net/nagios-layer) | [Docs](https://git.launchpad.net/tree/README.md) | Nagios Layer | Provide boilerplate required to relate services to the cs:nrpe subordinate |
 | nginx | [Repo](https://github.com/battlemidget/juju-layer-nginx.git) | [Docs](https://github.com/battlemidget/juju-layer-nginx.git#readme) | NGINX | NGINX layer for deploying web applications |
 | nodejs | [Repo](https://github.com/battlemidget/juju-layer-node.git) | [Docs](https://github.com/battlemidget/juju-layer-node.git#readme) | NodeJS | Runtime layer for NodeJS applications |
-| ntpmon | [Repo](https://git.launchpad.net/ntpmon) | [Docs](https://git.launchpad.net/tree/README.md) | ntpmon | NTP monitoring for telegraf |
+| ntpmon | [Repo](https://github.com/canonical/ntpmon) | [Docs](https://github.com/canonical/ntpmon#readme) | ntpmon | NTP monitoring for telegraf |
 | nvidia-cuda | [Repo](https://github.com/juju-solutions/layer-nvidia-cuda) | [Docs](https://github.com/juju-solutions/layer-nvidia-cuda#readme) | Nvidia CUDA | Installs CUDA and Nvidia drivers when supported GPU hardware is detected |
 | openjdk | [Repo](https://github.com/juju-solutions/layer-openjdk.git) | [Docs](https://github.com/juju-solutions/layer-openjdk.git#readme) | OpenJDK | OpenJDK using the java layer |
 | openstack-api | [Repo](https://github.com/openstack/charm-layer-openstack-api) | [Docs](https://github.com/openstack/charm-layer-openstack-api#readme) | OpenStack API layer | OpenStack API layer |
@@ -117,6 +117,7 @@ List of Base Layers
 | OVN | [Repo](https://github.com/openstack-charmers/charm-layer-ovn.git) | [Docs](https://github.com/openstack-charmers/charm-layer-ovn.git#readme) | OVN Layer | Base layer for Open Virtual Network Charms |
 | promreg-client | [Repo](https://git.launchpad.net/~prometheus-registration-developers/prometheus-registration/+git/layer-promreg-client) | [Docs](https://git.launchpad.net/~prometheus-registration-developers/prometheus-registration/+git/tree/README.md) | promreg-client | A layer to aid in registering a target with Prometheus Registration |
 | puppet | [Repo](https://github.com/juju-solutions/layer-puppet.git) | [Docs](https://github.com/juju-solutions/layer-puppet.git#readme) | Puppet Layer (deprecated) | Puppet layer (deprecated; use puppet-agent) |
+| rsyslog | [Repo](https://git.launchpad.net/~canonical-sysadmins/layer-rsyslog/+git/layer-rsyslog) | [Docs](https://git.launchpad.net/~canonical-sysadmins/layer-rsyslog/+git/tree/README.md) | Rsyslog layer | This rsyslog layer will enable rsyslog and enable building additional logging configuration. |
 | ruby | [Repo](https://github.com/battlemidget/juju-layer-ruby.git) | [Docs](https://github.com/battlemidget/juju-layer-ruby.git#readme) | Ruby | Build layer for Ruby applications |
 | snap-action | [Repo](https://github.com/lutostag/layer-snap-action.git) | [Docs](https://github.com/lutostag/layer-snap-action.git#readme) | snap-action | Perform snap commands via an action |
 | snap | [Repo](https://git.launchpad.net/layer-snap) | [Docs](https://git.launchpad.net/layer-snap/tree/README.md) | Snap layer | Snap layer for installing and updating Snap packages |
@@ -290,7 +291,6 @@ List of Interface Layers
 | public-address | [Repo](https://github.com/juju-solutions/interface-public-address) | [Docs](https://github.com/juju-solutions/interface-public-address#readme) | public-address | Simple relation that provides the providers public-address and a port |
 | rabbitmq | [Repo](https://github.com/openstack/charm-interface-rabbitmq) | [Docs](https://github.com/openstack/charm-interface-rabbitmq#readme) | rabbitmq | RabbitMQ AMQP interface |
 | redis | [Repo](https://github.com/canonical/interface-redis.git) | [Docs](https://github.com/canonical/interface-redis.git#readme) | redis | Interface for relating to redis |
-| rsyslog | [Repo](https://bazaar.launchpad.net/~canonical-sysadmins/canonical-is-charms/layer-rsyslog/files) | [Docs](https://bazaar.launchpad.net/~canonical-sysadmins/canonical-is-charms/layer-rsyslog/files/README.md) | Rsyslog layer | This rsyslog layer will enable rsyslog and enable building additional logging configuration. |
 | sdn-plugin | [Repo](https://github.com/juju-solutions/interface-sdn-plugin) | [Docs](https://github.com/juju-solutions/interface-sdn-plugin#readme) | sdn-plugin | An abstraction of common configurations for SDN providers, to be consumed by charms |
 | service-control | [Repo](https://github.com/openstack/charm-interface-service-control) | [Docs](https://github.com/openstack/charm-interface-service-control#readme) | service-control | This interface is used for a charm to request a restart of a service managed by another charm. |
 | service-mesh | [Repo](https://github.com/juju-solutions/interface-service-mesh.git) | [Docs](https://github.com/juju-solutions/interface-service-mesh.git#readme) | service-mesh | Generic Service Mesh interface layer |
